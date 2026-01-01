@@ -23,9 +23,9 @@ export default function TeamMember({ member, delay }: TeamMemberProps) {
           <img
             src={member.image || "/placeholder.svg"}
             alt={member.name}
-            className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300"
+            className="w-full h-80 object-cover object-top group-hover:scale-105 transition-transform duration-300"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-100 mx-0 my-0 px-0 border-0 leading-7 font-normal border-t-0 border-b-0"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-100 mx-0 my-0 px-0 border-0 leading-7 font-normal border-t-0 border-b-0"></div>
         </div>
       </div>
 
